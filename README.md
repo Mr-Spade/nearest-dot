@@ -1,29 +1,27 @@
 # nearest-dot
 
-This template should help get you started developing with Vue 3 in Vite.
+平面最近点对有关的一切。
 
-## Recommended IDE Setup
+> 使用vue，vite，electron等工具链构建，组件库源自element-plus。
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+## debug
 
-## Customize configuration
+要在本地debug，请确保您安装了node.js以及yarn，并在目录下运行：
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
+```
+yarn install
+yarn run dev
 ```
 
-### Compile and Hot-Reload for Development
+随后，您可以根据提示打开浏览网页对结果进行预览。
 
-```sh
-npm run dev
+## run
+
+要对项目进行编译，请确保您安装了node.js以及yarn，并在目录下运行：
+
+```
+yarn install
+yarn run make
 ```
 
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+随后，将会在out目录下生成与您的平台对应的可执行程序。
