@@ -23,4 +23,15 @@ module.exports = {
       config: {}
     }
   ],
+  publishers: [
+    {
+      "name": "@electron-forge/publisher-github",
+      "config": {
+        "repository": {
+          "owner": "Mr-Spade",
+          "name": "nearest-dot"
+        }
+      }
+    }
+  ]
 };
