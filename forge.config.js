@@ -3,7 +3,7 @@ module.exports = {
   rebuildConfig: {},
   makers: [
     {
-      name: '@electron-forge/maker-wix',
+      name: '@electron-forge/maker-squirrel',
       config: {},
     },
     {
