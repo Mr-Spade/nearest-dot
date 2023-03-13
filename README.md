@@ -21,6 +21,7 @@ yarn run dev
 
 ```
 yarn install
+yarn run build
 yarn run make
 ```
 
